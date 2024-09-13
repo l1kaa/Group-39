@@ -30,7 +30,8 @@ right(90)
 forward(100)
 end_fill()
 #end of drawing the door
-#step 3: drawing a rooftop
+#st
+# ep 3: drawing a rooftop
 penup()
 goto(200,200)
 pendown()
