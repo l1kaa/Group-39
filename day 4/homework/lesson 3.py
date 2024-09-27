@@ -1,7 +1,7 @@
 #task 1:
 
 name = input("please enter your name: " )
-surname = input("please enter your surname: " )
+surname = input("please enter your friend's surname: " )
 
 print(name + " " + surname)
 
