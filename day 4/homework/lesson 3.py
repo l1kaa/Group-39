@@ -31,12 +31,12 @@ print("the arithmetic mean of your chosen numbers is: "), print (arithmetic_mean
 
 #task 5:
 
-#"lika" + 15          #"lika" + "15" სტრინგისა და ინტეჯერის კონკატინაცია არ შეიძლება.
-#float("lika")        #ასოების შემცველი სტრინგის float-ად გადაქცევა არ შეიძლება.
-#"GOA is the best programming academy'         #"GOA is the best programming academy" or 'GOA is the best programming academy'
+#"lika" + 15          #debug: "lika" + "15" სტრინგისა და ინტეჯერის კონკატინაცია არ შეიძლება.
+#float("lika")        #debug: ასოების შემცველი სტრინგის float-ად გადაქცევა არ შეიძლება.
+#"GOA is the best programming academy'         #debug: "GOA is the best programming academy" or 'GOA is the best programming academy'
 #Position = "finance manager"
-#print(position)      #print(Position)
-#grade in english = "A+"      #grade_in_english = "A+"
+#print(position)      #debug: print(Position)
+#grade in english = "A+"      #debug: grade_in_english = "A+"
 
 
 #debugging ნიშნავს error-ების შესწორებას.
