@@ -53,7 +53,7 @@ num3 = int(input("please choose any number for the third time:  "))
 num4 = int(input("please choose any number for the fourth time: "))
 num5 = int(input("please choose any number for the fifth time: "))
 
-arithmetic_mean = (num1 + num2 + num3 + num4 +num5)/5
+arithmetic_mean = (num1 + num2 + num3 + num4 +num5)/53
 print(arithmetic_mean < num1*num5)
 
 
