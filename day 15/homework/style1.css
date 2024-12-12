@@ -1,0 +1,34 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+body {
+    background-image: url(https://i.pinimg.com/736x/4b/87/1c/4b871ca2d5e9976e10ead764ab9c25ae.jpg);
+    background-repeat: repeat;
+    background-size: 1500px;
+}
+h1{
+    color: rgb(6, 6, 103);
+}
+h2{
+    display: flex;
+}
+.nav {
+    font-size:23px;
+    color: blue;
+    font-weight: bold;
+}
+.nav:hover {
+    text-decoration:rgb(7, 7, 62);
+}
+#articles {
+    display: flex;
+    text-align: center;
+    width: 120px;
+    border-style:solid;
+    border-radius: 7px;
+    
+    
+}
+
