@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+h1, h2 {
+    color:rgb(17, 168, 95)
+}
+p {
+    font-size: large;
+}
+button {
+    font-size: large;
+    font-weight: bold;
+}
+#button1 {
+    color:rgb(201, 42, 85)
+}
+#button2 {
+    color:rgb(42, 98, 201)
+}

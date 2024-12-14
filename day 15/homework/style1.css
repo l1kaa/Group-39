@@ -22,8 +22,9 @@ h2{
 .nav:hover {
     text-decoration:rgb(7, 7, 62);
 }
-#articles {
+#articles,#new_info {
     display: flex;
+    justify-content: center;
     text-align: center;
     width: 120px;
     border-style:solid;
@@ -31,4 +32,11 @@ h2{
     
     
 }
+
+img{
+    width: 500px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+}
+
 
