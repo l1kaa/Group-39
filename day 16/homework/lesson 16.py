@@ -55,3 +55,4 @@ print(surname)
 # 6) ცვლადში შეინახეთ სტრინგი პატარა ასოებით, შემდეგ .capitalize() ფუნქციის მეშვეობით გადააქციე პირველი ასო დიდ ასოდ.
 rock_artist = "deftones".capitalize()
 print(rock_artist)
+
