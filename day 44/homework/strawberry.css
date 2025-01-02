@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+}
+.strawberry{
+    width:200px;
+    height:200px;
+    /* background: red; */
+    background-image: url('https://i.pinimg.com/736x/a1/b7/f2/a1b7f28dd64d7717663181ad9896c4e8.jpg');
+    border-radius: 50px 50px 250px 250px;
+    display:flex;
+    position: relative;
+    top:250px;
+    left:600px;
+}
+.leaf{
+    width:50px;
+    height:50px;
+    background: green;
+    position:absolute;
+    left:675px;
+    border-radius: 70px 70px 0px 0px;
+}

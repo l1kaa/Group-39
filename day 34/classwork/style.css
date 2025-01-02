@@ -1,0 +1,17 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    color:rgb(242, 255, 0);
+}
+.second{
+    color:rgb(0, 0, 0);
+}
+.third{
+    color:rgb(129, 0, 129);
+}
+.fourth{
+    color:rgb(80, 30, 30);
+}

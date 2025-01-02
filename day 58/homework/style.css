@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+.p0{
+    font-size:25px;
+    font-family: outfit;
+    color:  hsl(0, 0%, 100%);
+    font-weight: 500;
+    margin: 15px;
+}
+.p1,.p2,.p3,.p4{
+    font-size: 18px;
+    font-family: outfit;
+    display:inline;
+    /* margin: 15px; */
+}
+.p1{
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    left:15px;
+}
+.p2{
+    color:  hsl(178, 100%, 50%);
+    position: relative;
+    top:40px;
+    right:125px;
+}
+.p3{
+    color: hsl(215, 51%, 70%);
+    display:flex;
+    position: relative;
+    top:0px;
+    left:200px;
+}
+.p4{
+    position: relative;
+    top:50px;
+    left:15px;
+    color: hsl(215, 51%, 70%);
+}
+
+body{
+    background-color: hsl(217, 54%, 11%) ;
+}
+.card{
+    width:320px;
+    height:550px;
+    border-radius: 15px;
+    background: hsl(216, 50%, 16%);
+    padding:10px;
+    position: absolute;
+    top:80px;
+    left:600px;
+    /* box-shadow: 0 10px 40px hsl(220, 15%, 55%); */
+    box-shadow:  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px, rgba(0, 0, 0, 0.25) 0px 13px 27px -5px;
+}
+.p1{
+    text-align:left;
+}
+.main{
+    height:270px;
+    width:270px;
+    position:relative;
+    left:25px;
+    top:5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.img-div:hover {
+    background-image: url('images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    /* background-color: hsl(178, 100%, 50%); */
+}
+.img-div img {
+
+    object-fit: cover;
+    transition: opacity 1s;
+}
+
+.img-div:hover img {
+     opacity: 0.5; /*Dim the image when hovered */
+}
+
+.p0:hover, .p4:hover {
+    color:hsl(178, 100%, 50%);
+    transition: 1.3s;
+}
+.clock{
+    width:20px;
+    height:20px;
+    position: relative;
+    right:5px;
+}
+.diamond{
+    position:relative;
+    top:40px;
+    right:130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

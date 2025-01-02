@@ -1,0 +1,134 @@
+*{
+    /* text-align: center; */
+    padding:0;
+    margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    background-color: rgb(17, 0, 28);
+    min-height: 100%;
+}
+h1{
+    color:ivory;
+    font-family: arial;
+}
+.nav-bar{
+    width:1537px;
+    height:80px;
+    background: rgba(58, 1, 92);
+    display: flex;
+    position: fixed;
+    top:0;
+    /* justify-content:space-evenly; */
+    gap:100px;
+    z-index: 11;
+}
+a{
+    text-decoration: none;
+    color:ivory;
+    font-size: x-large;
+    position: relative;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    position: relative;
+    left:200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 12;
+}
+
+
+#money-tree{
+    position: relative;
+    left:20px;
+    gap:100px;
+}
+#main-logo{
+    position: relative;
+    top:13px;
+    
+}
+#contact-img{
+    position: relative;
+    top:7px;
+}
+#home-img, #login-img, #signup-img{
+    position: relative;
+    top:5px;
+}
+#home:hover,#login:hover,#signup:hover,#contact:hover{
+    opacity: 0.4;
+    transition: opacity 0.7s;
+    text-shadow: 0 0 15px black;
+    /* background-color: rgba(242, 245, 248, 0.14);
+    transition: 0.7s; */
+}
+
+#money-tree:hover{
+    background-attachment: fixed;
+    background-color: rgba(242, 245, 248, 0.14);
+    transition: 0.7s;
+    text-shadow: 0 0 15px black;
+    border-radius: 10px;
+
+}
+.user p{
+    color:ivory;
+    font-size:15px;
+}
+.user{
+    position: fixed;
+    left:1380px;
+    top:2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.user:hover{
+    background-attachment: fixed;
+    background-color: rgba(242, 245, 248, 0.14);
+    transition: 0.7s;
+    text-shadow: 0 0 15px black;
+    border-radius: 5px;
+}
+.user img{
+    position: relative;
+    left:15px;
+}
+video{
+    position: absolute;
+    left:30%;
+    top:0%;
+    width:700px;
+    height:700px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.footer{
+    width:1537px;
+    height:150px;
+    background: rgba(58, 1, 92);
+    display: flex;
+    position:relative;
+    /* bottom:0; */
+    margin-top: -100px;
+    color:ivory;
+    font-family: arial;
+    z-index: 2;
+}
+
+.footer h2{
+    position: relative;
+    left:270px;
+    top:10px;
+}
+.footer p{
+    position: relative;
+    left:70px;
+    top:60px;
+    text-align: center;
+}

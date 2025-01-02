@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+img{
+    width:300px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: brown;
+    border-width: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+
+}
+p{
+    font-size: larger;
+}
+div{
+    margin:auto;
+}

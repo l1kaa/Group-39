@@ -1,0 +1,14 @@
+#about_me{
+    font-size: medium;
+    font-family: arial;
+    color:blueviolet;
+    border:2px solid;
+}
+.color{
+    color:darkred;
+    font-family: arial;
+}
+button{
+    background-color:red;
+}
+

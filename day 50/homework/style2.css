@@ -1,0 +1,19 @@
+p{
+    border:5px solid black;
+    display:flex;
+}
+.one{
+    flex-wrap: wrap;
+}
+.two{
+    flex-shrink: 3;  
+}
+.three{
+    flex-grow: 10;
+}
+img{
+    display: block;
+}
+h2{
+    display:inline;
+}

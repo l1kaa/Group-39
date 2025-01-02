@@ -1,0 +1,11 @@
+p{
+    border:5px solid black;
+    display:flex;
+}
+.one{
+    flex-wrap: wrap;
+}
+.two{
+    flex-shrink: 3;
+    
+}

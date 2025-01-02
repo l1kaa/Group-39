@@ -1,0 +1,23 @@
+body{
+    background-image: url('tvgirl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color:aliceblue;
+    font-weight: bolder;
+    position: relative;
+    left:50px;
+    top:100px;
+}
+
+.div{
+    width: 300px;
+    height: 300px;
+    background: blue;
+    border-radius: 15px;
+    border:15px solid rgb(235, 9, 152);
+    position:absolute;
+    left:600px;
+    top:170px;
+}

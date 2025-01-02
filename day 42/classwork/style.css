@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family:arial;
+    color:rgb(226, 43, 43);
+}
+input{
+    border:solid 3px;
+    border-color:rgb(226, 43, 43);
+    border-radius: 2px;
+}
+
+label{
+    font-family:arial;
+    font-weight:bold;
+    color:rgb(44, 32, 174);
+}
+input[type ="submit"]:hover{
+    background-color:rgb(179, 36, 36);
+    color:antiquewhite;
+}
+input[type ="submit"]{
+    font-size:20px;
+    border-radius: 4px;
+}
