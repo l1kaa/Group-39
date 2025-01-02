@@ -1,0 +1,25 @@
+.main{
+    width: 600px;
+    height: 600px;
+    background: black;
+}
+
+#one{
+    width: 250px;
+    height: 250px;
+    background: purple;
+    position: relative;
+    left:180px;
+    top:150px;
+}
+
+
+#two{
+    width: 250px;
+    height: 250px;
+    background: rgb(0, 2, 128);
+    position: relative;
+    left:180px;
+    top:-100px;
+}
+
