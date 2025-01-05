@@ -2,7 +2,7 @@ from turtle import *
 
 
 #painting a house
-#step 1:building the walls of the house
+#step 1:building the walls of the house 
 speed(30)
 width(7)
 color("black")

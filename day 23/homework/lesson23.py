@@ -1,5 +1,5 @@
 # 1. შექმენით სია, სადაც გექნებათ 4 სტრინგი, შემდეგ კი indexing-ის მეშვეობით გამოიტანეთ მეორე ელემენტი.
-list = ["cherry", "kiwi", "dragonfruit", "passionfruit"]
+list = ["cherry", "kiwi", "dragonfruit", "passion fruit"]
 print(list[1])
 
 # 2. შექმენით სია, სადაც გექნებათ 4 სტრინგი, შემდეგ კი შეცვალეთ მეორე ინდექსი სხვა მნიშვნელობით.

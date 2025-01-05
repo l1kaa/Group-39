@@ -7,7 +7,7 @@ for i in num:
 num = int(input("please enter your favorite number:"))
 while num > 0:
     print(num)
-    num -= 1
+    num -= 1 
 
 # Task 3:
 i = 1

@@ -7,4 +7,4 @@ fact = "i am interested in programming"
 print("my" + " " + "name" + " " + "is" + " " + name + "," + " " + "my" + " " + "surname" + " " + "is" + " " + surname + "." + " " +  "i" + " " "am" + " " + age + " " + "years" +" " + "old" + "." + " " + "my" + " " + "height" + " " + "is" + " " + height + "." + "and" + " " + "the" + " " + "reason" + " " + "why" + " " + "i" + " " + "started" + " " + "learning" + " " + "in" + " " + "GOA" + " " + "academy" + " " + "is" + " " + "because" + " " + fact) 
 
 
-print("i"+" " + "am" + " " + name +" " +"my" +" " + "age"+ " " + "is" + age)
+print("i"+" " + "am" + " " + name +" " +"my" +" " + "age"+ " " + "is" + age) 

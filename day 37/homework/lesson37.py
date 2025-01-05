@@ -10,7 +10,7 @@ def multiplication(num1, num2):
 def minimum(list):
     return min(list)
 
-# 4. შექმენით ფუნქცია, რომელიც არგუმენტად იღებს რიცხვს და ამოწმებს, არის თუ არა ის დადებითი.
+# 4. შექმენით ფუნქცია, რომელიც არგუმენტად იღებს რიცხვს და ამოწმებს არის თუ არა ის დადებითი.
 def check(number):
     if number > 0:
         return True

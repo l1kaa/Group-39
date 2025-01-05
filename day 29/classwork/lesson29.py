@@ -38,7 +38,7 @@ list3.append("headset")
 list3.insert(0, "mouse")
 list3.pop(1)
 
-# შექმენით 3 ცვლადი და დაითვალეთ რამდენი სიმბოლოა თითოეულ ცვლადში
+# შექმენით 3 ცვლადი და დაითვალეთ რამდენი სიმბოლოა თითოეულ ცვლადში.
 name = "Lika"
 surname = "Chkhikvadze"
 status = "English mentor"

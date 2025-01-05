@@ -58,4 +58,3 @@ def find_index(list,index):
 def loop(number):
     for i in range(0,number):
         print(i)
-    

@@ -7,7 +7,6 @@ elif num == 18:
 elif num > 18:
     print("adult")
 
-
 # 2. მომხარებელს ცვლადში შემოატანინე რიცხვი, თუ ის რიცხვი უარყოფითია დაუპრინტე (negative), თუ დადებითია (positive), თუ ნულია (zero).
 user_num = int(input("enter a number: "))
 if user_num < 0:

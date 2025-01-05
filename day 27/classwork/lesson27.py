@@ -12,7 +12,7 @@ print(name)
 username = "sandro"
 username.capitalize()
 
-# 4. მომხარებელს შემოატანინე სიტყვა, შემდეგ გადააქციე პატარა ასოებად და დაპრინტე.
+# 4. მომხარებელს შემოატანინე სიტყვა, შემდეგ გადააქციე პატარა ასოებად და დაპრინტე
 word = input("enter a word: ")
 word.lower()
 print(word)

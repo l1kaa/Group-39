@@ -26,3 +26,4 @@ def max(num1,num2):
 def reverse(string):
     return string[::-1]
 print(reverse)
+

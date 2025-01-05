@@ -1,5 +1,5 @@
 # 1)შექმენით სია, რომელშიც მოცემულია კვირის დღეები:["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"].
-# ამოიღეთ და დაბეჭდეთ: კვირის პირველი დღე.ბოლო დღე.
+# ამოიღეთ და დაბეჭდეთ: კვირის პირველი დღე,ბოლო დღე.
 # შეცვალეთ სიის მესამე ელემენტი ("Wednesday") ახალ მნიშვნელობაზე "Midweek".
 
 list = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]

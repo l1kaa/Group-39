@@ -8,7 +8,7 @@ names = ["lika", "nika", "giorgi", "vano", "sofo"]
 name = input("please enter a name:")
 num = int(input("please enter a number:"))
 names [num] = name
-print(names)
+print(names) 
 
 #3
 # Mutable - არის შეცვლადი

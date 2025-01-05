@@ -46,7 +46,7 @@ print (users_age >= 18 or users_surname == my_surname)
 # Iteration არის ინსტრუქციის განმეორებით შესრულება.
 # Selection განსაზღვრავს გარკვეულ არჩევანს.
 
-# task 8
+# task 8 
 num1 = int(input("please choose any number: "))
 num2 = int(input("please choose any number for the second time: "))
 num3 = int(input("please choose any number for the third time:  "))
