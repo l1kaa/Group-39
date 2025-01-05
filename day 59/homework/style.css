@@ -1,0 +1,65 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution { 
+    color: hsl(228, 45%, 44%); 
+}
+body{
+background:hsl(30, 54%, 90%);
+}
+.box{
+  max-width:600px;
+  margin:auto;
+  background:hsl(0, 0%, 100%);
+  padding:20px;
+  border-radius:10px;
+  text-align: justify;
+  font-family: "Outfit", sans-serif;
+}
+p{
+font-size: 16px;
+}
+img{
+  width:100%;
+  border-radius:5px;
+}
+.preparation{
+  background:hsl(330, 100%, 98%);
+  padding:10px;
+}
+.preparation h2{
+color: hsl(24, 5%, 18%);
+font-weight:600;
+}
+.preparation li{
+padding:10px;
+}
+.Ingredients li{
+padding:10px;
+}
+span{
+font-weight:bold;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+  border-bottom: 1px solid #ccc; 
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+tr:last-child{
+border-bottom:none;
+}
