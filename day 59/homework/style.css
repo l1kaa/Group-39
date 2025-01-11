@@ -62,3 +62,18 @@ th, td {
 tr:last-child{
 border-bottom:none;
 }
+#preparation{
+  color:rgb(123, 77, 63);
+}
+#ingredients{
+  color:rgb(123, 77, 63);
+}
+#instructions{
+  color:rgb(123, 77, 63);
+}
+#Nutrition{
+  color:rgb(123, 77, 63);
+}
+h1{
+  font-family: 'Times New Roman', sans-serif;
+}
