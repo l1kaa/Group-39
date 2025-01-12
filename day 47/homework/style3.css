@@ -1,5 +1,4 @@
 *{
-    /* text-align: center; */
     padding:0;
     margin:0;
 }
@@ -98,24 +97,15 @@ a{
     position: relative;
     left:15px;
 }
-video{
-    position: absolute;
-    left:30%;
-    top:0%;
-    width:700px;
-    height:700px;
-    z-index: 1;
-    border-radius: 20px;
-}
-
 .footer{
     width:1537px;
     height:150px;
     background: rgb(90, 16, 143);
     display: flex;
-    position:relative;
+    position:absolute;
+    bottom:0px;
     /* bottom:0px; */
-    margin-top: -200px;
+    top:1200px;
     color:ivory;
     font-family: arial;
     z-index: 2;
@@ -172,7 +162,7 @@ form{
     
 }
 
-input{
+#email{
     width:170px;
     height:25px;
     border-collapse: collapse;
@@ -190,7 +180,7 @@ input{
     background-color: rgb(129, 90, 192); 
     color: white;
 }
-input:focus{
+#email:focus{
     background-color: rgb(129, 90, 192); 
     color: white;
 }
@@ -199,4 +189,162 @@ input:focus{
 }
 .footer label:hover, .footer p{
     transition-duration: 0.4;
+}
+main{
+    flex:1;
+}
+html,body{
+    height: 100%;
+}
+
+#login-form{
+    height:600px;
+    width: 400px;
+    background: rgb(123, 44, 191);
+    position: relative;
+    top:150px;
+    left:580px;
+    border-radius: 5px;
+    
+    
+}
+#login-form h1{
+    /* color:rgba(58, 1, 92); */
+    position:relative;
+    right:395px;
+    text-shadow: 3px 3px 10px rgb(207, 184, 226);
+}
+
+#Email{
+    border-collapse: collapse;
+    background-color: transparent; ;
+    position:relative;
+    right:500px;
+    top:40px;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid rgba(58, 1, 92);
+    width:325px;
+    height:30px;
+    transition: 0.4s;
+    
+    /* text-shadow:0px 0px 1px rgb(0, 0, 0) ; */
+}
+
+
+::placeholder{
+    color:rgba(58, 1, 92);
+    opacity:1;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+#pass{
+    border-collapse: collapse;
+    background-color: transparent; 
+    position:relative;
+    right:500px;
+    top:90px;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid rgba(58, 1, 92);
+    width:325px;
+    height:30px;
+    transition: 0.4s;
+}
+#repeat-pass{
+    border-collapse: collapse;
+    background-color: transparent; 
+    position:relative;
+    right:500px;
+    top:140px;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid rgba(58, 1, 92);
+    width:325px;
+    height:30px;
+    transition: 0.4s;
+}
+#bdate{
+    color:rgba(58, 1, 92);
+}
+.newsletter::placeholder{
+    text-decoration: none;
+}
+
+#Email:focus{
+    font-weight:bold;
+    border-bottom: 3px solid rgba(58, 1, 92);
+    transform: scale(1.05);
+}
+
+#pass:focus{
+    font-weight:bold;
+    border-bottom: 3px solid rgba(58, 1, 92);
+    transform: scale(1.05);
+}
+#repeat-pass:focus{
+    font-weight:bold;
+    border-bottom: 3px solid rgba(58, 1, 92);
+    transform: scale(1.05);
+}
+.checkbox{
+    position: relative;
+    display: flex;
+    right:500px;
+    top:200px;
+    
+}
+input[type="checkbox"]:focus{
+    font-weight:bold;
+}
+/* .checkbox label{
+    font-family: sans-serif;
+    position: relative;
+    left:5px;
+    color:rgb(58, 1, 92);
+    transition: 0.2s;
+
+}
+.checkbox label:hover{
+    font-weight:bold;
+    text-decoration: underline;
+} */
+#login-form button{
+    color:rgb(58, 1, 92);
+    position: relative;
+    top:240px;
+    right:495px;
+    font-size:25px;
+    width:320px;
+    border:3px solid rgb(58, 1, 92);
+    background-color:rgb(128, 92, 186);
+    border-radius: 15px;
+    /* background-color:transparent; */
+    font-family:sans-serif;
+    transition: 0.4s;
+}
+#login-form button:hover,#login-form button:active {
+    background-color:rgb(221, 199, 255);
+    /* font-weight: bold; */
+}
+.link-to-signup{
+    display: flex;
+    position: relative;
+    top:265px;
+    right:450px;
+    
+}
+.link-to-signup p{
+    font-size:18px;
+    color:rgb(26, 1, 40)
+}
+.link-to-signup a{
+    font-size:18px;
+    left:5px;
+    color:rgb(26, 1, 40);
+    font-weight:bold;
+    transition: 0.4s;
+}
+.link-to-signup a:hover{
+    text-decoration: underline;
 }
