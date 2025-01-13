@@ -1,0 +1,114 @@
+#color{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position:absolute;
+    left:100px;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes color-change{
+    from{
+        background-color:  red;
+    }
+    to{
+        background-color:  blue
+    }
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position:absolute;
+    top:400px;
+    left:100px;
+    border-radius: 100%;
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce{
+    0%{
+        transform: translate(0px,0px);
+    }
+    10%{
+        transform: translate(100px,-200px);
+    }
+    30%{
+        transform: translate(100px,0px);
+    }
+    40%{
+        transform: translate(200px,-200px);
+    }
+    60%{
+        transform: translate(200px,0px);
+    }
+    80%{
+        transform: translate(300px,-200px);
+    }
+    100%{
+        transform: translate(300px,0px);
+    }
+
+}
+
+#rotate{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    position:absolute;
+    top:500px;
+    left:100px;
+    animation-name: rotating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotating{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+h2{
+    position:absolute;
+    left:400px;
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    from{
+        color:  black;
+    }
+    to{
+        color: blueviolet;
+    }
+}
+
+#size{
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    position:absolute;
+    top:300px;
+    left:700px;
+    animation-name: size-change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes size-change{
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
