@@ -1,0 +1,21 @@
+#div1{
+    width: 200px;
+    height: 200px;
+    background:rgb(123, 167, 188);
+    position:absolute;
+    top:230px;
+    left:300px;
+    animation:change 5s infinite 1.5s linear;
+}
+@keyframes change{
+    from{
+        background:rgb(123, 167, 188);
+        transform: rotate(0deg) translate(0px);
+        border-radius: 0%;
+    }
+    to{
+        background:rgb(255, 209, 0);
+        transform: rotate(180deg) translate(-200px);
+        border-radius: 15%;
+    }
+}
